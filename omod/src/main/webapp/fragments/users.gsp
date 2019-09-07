@@ -116,7 +116,7 @@
         <% if (patientLineList) { %>
         <% patientLineList.each { %>
         <tr>
-            <td>${ui.format(it.PatientID)}</td>
+            <td>${ui.format(it.PatientId)}</td>
             <td>${ui.format(it.countOfLabEncounter)}</td>
             <td>${ui.format(it.countOfPharmacyEncounter)}</td>
             <td>${ui.format(it.dateOfFirstEncounter)}</td>
