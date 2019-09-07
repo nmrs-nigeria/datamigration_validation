@@ -72,10 +72,10 @@ public class FactoryUtils {
 			ResultSet result = statement.executeQuery(PATIENT_LINE_LIST);
 			while (result.next()) {
 				PatientLineList Patient = new PatientLineList();
-				Patient.setPatientId(result.getString(result.findColumn("personName")));
+				Patient.setPatientId(result.getString(result.findColumn("identifier")));
+				Patient.setPatientName(result.getString(result.findColumn("personName")));
 				Patient.setCountOfLabEncounter(result.getInt(result.findColumn("encounterTypeLab")));
 				Patient.setCountOfPharmacyEncounter(result.getInt(result.findColumn("encounterTypePhamacy")));
-				Patient.setPatientName(result.getString(result.findColumn("identifier")));
 				Patient.setDateOfFirstEncounter(result.getDate(result.findColumn("dateOfFirstEncounter")));
 				Patient.setDateOfLastEncounter(result.getDate(result.findColumn("dateOfLastEncounter")));
 				Patient.setFirstDocumentedRegimen(result.getString(result.findColumn("firstDocumentedRegimen")));
