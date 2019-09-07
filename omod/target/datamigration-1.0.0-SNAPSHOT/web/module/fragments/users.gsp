@@ -130,7 +130,8 @@
     <table id="myTable">
         <thead style="font-size: 13px;">
         <tr>
-            <th>PateintyID</th>
+            <th>PatientID</th>
+            <th>Pateint Name</th>
             <th>Lab records</th>
             <th>Pharmacy Records</th>
             <th>ARTstartdate</th>
@@ -144,6 +145,7 @@
         <% patientLineList.each { %>
         <tr>
             <td>${ui.format(it.PatientId)}</td>
+            <td>${ui.format(it.PatientName)}</td>
             <td>${ui.format(it.countOfLabEncounter)}</td>
             <td>${ui.format(it.countOfPharmacyEncounter)}</td>
             <td>${ui.format(it.dateOfFirstEncounter)}</td>
