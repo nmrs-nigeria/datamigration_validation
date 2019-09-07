@@ -4,6 +4,7 @@ import org.openmrs.*;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.datamigration.api.dao.DbConnection;
 import org.openmrs.module.datamigration.util.Model.Migration;
+import org.openmrs.module.datamigration.util.Model.PatientLineList;
 import org.openmrs.module.datamigration.util.Model.SummaryDashboard;
 
 import java.sql.*;
@@ -11,20 +12,20 @@ import java.text.ParseException;
 import java.util.*;
 
 public class FactoryUtils {
-	
+
 	private static String ENCOUNTER_TYPE_VIEW = "SELECT * FROM ENCOUNTER_TYPE_VIEW";
-	
-	private static String FACILITY_SELECT_QUERY = "SELECT * FROM facility LIMIT 1";
-	
+
+	private static String PATIENT_LINE_LIST = "SELECT * FROM PATIENT_LINE_LIST";
+
 	/*This method does the utility connection for the patient*/
 	public void PatientUtils(Migration delegate) throws ParseException {
-		
+
 		try {
 			Location location = LocationUtil.InsertLocation(delegate.getFacility());
 			if (location != null) {
 				//handle patient
 				Patient patient = PatientUtil.InsertPatient(delegate, location);
-				
+
 				//handle encounters and obs
 				EncounterUtils.InsertEncounter(delegate, location, patient);
 			}
@@ -33,20 +34,17 @@ public class FactoryUtils {
 			throw e;
 		}
 	}
-	
+
 	public static List<EncounterType> getEncounterByEncounterTypeId(int HIV_Enrollment_Encounter_Type_Id) {
-		
-		//Context.getCohortService().getCohortByUuid()
 		return Context.getEncounterService().getAllEncounterTypes();
-		//.stream().filter(x->x.getEncounterTypeId() == HIV_Enrollment_Encounter_Type_Id ).collect(Collectors.toList());
 	}
-	
+
 	public ArrayList<SummaryDashboard> getEncounters() {
 
 		DbConnection dbcon = new DbConnection();
 		Connection connection = dbcon.Connection();
 		ArrayList<SummaryDashboard> summaryDashboardList = new ArrayList<>();
-		
+
 		try {
 			Statement statement = connection.createStatement();
 			ResultSet result = statement.executeQuery(ENCOUNTER_TYPE_VIEW);
@@ -63,8 +61,31 @@ public class FactoryUtils {
 		}
 		return summaryDashboardList;
 	}
-	
-	public static List<Patient> getPatients() {
-		return Context.getPatientService().getAllPatients();
+
+	public static List<PatientLineList> getPatientsLineList() {
+		ArrayList<PatientLineList> pateintLineList = new ArrayList<PatientLineList>();
+		DbConnection dbcon = new DbConnection();
+		Connection connection = dbcon.Connection();
+
+		try {
+			Statement statement = connection.createStatement();
+			ResultSet result = statement.executeQuery(PATIENT_LINE_LIST);
+			while (result.next()) {
+				PatientLineList Patient = new PatientLineList();
+				Patient.setPatientId(result.getString(result.findColumn("personName")));
+				Patient.setCountOfLabEncounter(result.getInt(result.findColumn("encounterTypeLab")));
+				Patient.setCountOfPharmacyEncounter(result.getInt(result.findColumn("encounterTypePhamacy")));
+				Patient.setPatientName(result.getString(result.findColumn("identifier")));
+				Patient.setDateOfFirstEncounter(result.getDate(result.findColumn("dateOfFirstEncounter")));
+				Patient.setDateOfLastEncounter(result.getDate(result.findColumn("dateOfLastEncounter")));
+				Patient.setFirstDocumentedRegimen(result.getString(result.findColumn("firstDocumentedRegimen")));
+				Patient.setLastDocumentedRegimen(result.getString(result.findColumn("LastdocumentedRegimen")));
+				pateintLineList.add(Patient);
+			}
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return pateintLineList;
 	}
 }
