@@ -10,12 +10,12 @@ org/openmrs/module/datamigration/DataMigrationActivator.class
 org/openmrs/module/datamigration/api/impl/DataMigrationServiceImpl.class
 org/openmrs/module/datamigration/util/Model/ObsChildren.class
 org/openmrs/module/datamigration/util/EncounterUtils.class
-org/openmrs/module/datamigration/util/Model/LineList.class
 org/openmrs/module/datamigration/Item.class
 org/openmrs/module/datamigration/NmrsConnection.class
 org/openmrs/module/datamigration/api/dao/DbConnection.class
 org/openmrs/module/datamigration/util/Model/Demographics.class
 org/openmrs/module/datamigration/util/Model/Location.class
+org/openmrs/module/datamigration/util/Model/PatientLineList.class
 org/openmrs/module/datamigration/util/FactoryUtils.class
 org/openmrs/module/datamigration/util/ObsUtil.class
 org/openmrs/module/datamigration/util/Model/Encounter.class

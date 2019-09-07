@@ -12,20 +12,20 @@ import java.text.ParseException;
 import java.util.*;
 
 public class FactoryUtils {
-
+	
 	private static String ENCOUNTER_TYPE_VIEW = "SELECT * FROM ENCOUNTER_TYPE_VIEW";
-
+	
 	private static String PATIENT_LINE_LIST = "SELECT * FROM PATIENT_LINE_LIST";
-
+	
 	/*This method does the utility connection for the patient*/
 	public void PatientUtils(Migration delegate) throws ParseException {
-
+		
 		try {
 			Location location = LocationUtil.InsertLocation(delegate.getFacility());
 			if (location != null) {
 				//handle patient
 				Patient patient = PatientUtil.InsertPatient(delegate, location);
-
+				
 				//handle encounters and obs
 				EncounterUtils.InsertEncounter(delegate, location, patient);
 			}
@@ -34,11 +34,11 @@ public class FactoryUtils {
 			throw e;
 		}
 	}
-
+	
 	public static List<EncounterType> getEncounterByEncounterTypeId(int HIV_Enrollment_Encounter_Type_Id) {
 		return Context.getEncounterService().getAllEncounterTypes();
 	}
-
+	
 	public ArrayList<SummaryDashboard> getEncounters() {
 
 		DbConnection dbcon = new DbConnection();
@@ -61,12 +61,12 @@ public class FactoryUtils {
 		}
 		return summaryDashboardList;
 	}
-
+	
 	public static List<PatientLineList> getPatientsLineList() {
 		ArrayList<PatientLineList> pateintLineList = new ArrayList<PatientLineList>();
 		DbConnection dbcon = new DbConnection();
 		Connection connection = dbcon.Connection();
-
+		
 		try {
 			Statement statement = connection.createStatement();
 			ResultSet result = statement.executeQuery(PATIENT_LINE_LIST);

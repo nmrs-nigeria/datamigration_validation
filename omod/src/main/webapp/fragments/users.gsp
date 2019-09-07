@@ -38,6 +38,33 @@
     min-width: 70px;
     font-size: 0.9em;
 }
+
+#myTable_paginate{
+    display: flex-inline;
+}
+#myTable_paginate li {
+    margin:2px;
+    padding:3px;
+    text-decoration: none;
+        text-align: center;
+        border-radius: 3px;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b57a6), color-stop(100%, #5b57a6));
+        background: -webkit-linear-gradient(top, #5b57a6, #5b57a6);
+        background: -moz-linear-gradient(top, #5b57a6, #5b57a6);
+        background: -o-linear-gradient(top, #5b57a6, #5b57a6);
+        background: -ms-linear-gradient(top, #5b57a6, #5b57a6);
+        background: linear-gradient(top, #5b57a6, #5b57a6);
+        background-color: #5b57a6;
+        border: #5b57a6 1px solid;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        width:auto;
+}
+
+#myTable_paginate li a{
+ color:white;
+}
 </style>
 
 
@@ -71,7 +98,7 @@
     <a id="coreapps-activeVisitsHomepageLink-coreapps-activeVisitsHomepageLink-extension"
        href="#" class="button app big">
 
-        <i class=" icon-google-plus-sign "></i>
+        <i class="icon-home"></i>
         <br>
         Lab Records
         <p><b>${ui.format(totallLaboratoryEncounter)}</b></p>

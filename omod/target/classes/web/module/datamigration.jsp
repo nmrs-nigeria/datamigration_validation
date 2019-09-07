@@ -1,21 +1,7 @@
-<%@ include file="/WEB-INF/template/include.jsp"%>
+<% ui.decorateWith("appui", "standardEmrPage") %>
 
-<%@ include file="/WEB-INF/template/header.jsp"%>
+<h1 align="center"> <b>MIGRATION SUMMARY</b></h1>
 
-<h2><spring:message code="datamigration-omod.title" /></h2>
+<% ui.includeJavascript("nigeriaemr", "datatables.min.js") %>
 
-<br/>
-<table>
-  <tr>
-   <th>User Id</th>
-   <th>Username</th>
-  </tr>
-  <c:forEach var="user" items="${users}">
-      <tr>
-        <td>${user.userId}</td>
-        <td>${user.systemId}</td>
-      </tr>		
-  </c:forEach>
-</table>
-
-<%@ include file="/WEB-INF/template/footer.jsp"%>
+${ ui.includeFragment("datamigration", "users") }
