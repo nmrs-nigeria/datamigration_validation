@@ -13,6 +13,7 @@ import org.openmrs.api.UserService;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.datamigration.api.dao.DbConnection;
 import org.openmrs.module.datamigration.util.FactoryUtils;
+import org.openmrs.module.datamigration.util.Model.PatientLineList;
 import org.openmrs.module.datamigration.util.Model.SummaryDashboard;
 import org.openmrs.ui.framework.annotation.SpringBean;
 import org.openmrs.ui.framework.fragment.FragmentModel;
@@ -29,14 +30,19 @@ public class UsersFragmentController {
 	
 	public void controller(FragmentModel model, @SpringBean("userService") UserService service) {
 
+		DbConnection connection = new DbConnection();
 		FactoryUtils factoryUtils = new FactoryUtils();
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		List<SummaryDashboard> summaryDashboardList = factoryUtils.getEncounters();
+		List<PatientLineList> patientLineList = factoryUtils.getPatientsLineList();
+
+		model.addAttribute("patientLineList", patientLineList);
+
 
 
 		map.put("totalPatients",Context.getPatientService().getAllPatients().size());
-        map.put("totallLaboratoryEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(11)).findFirst().orElse(null).getCountOfEncounter());
-        map.put("totalPharmacyEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(13)).findFirst().orElse(null).getCountOfEncounter());
+		map.put("totallLaboratoryEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(11)).findFirst().orElse(null).getCountOfEncounter());
+		map.put("totalPharmacyEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(13)).findFirst().orElse(null).getCountOfEncounter());
 		map.put("totalCareCardEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(12)).findFirst().orElse(null).getCountOfEncounter());
 		model.mergeAttributes(map);
 		
