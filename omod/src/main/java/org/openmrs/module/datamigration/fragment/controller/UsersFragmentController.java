@@ -38,12 +38,22 @@ public class UsersFragmentController {
 
 		model.addAttribute("patientLineList", patientLineList);
 
-
-
 		map.put("totalPatients",Context.getPatientService().getAllPatients().size());
-		map.put("totallLaboratoryEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(11)).findFirst().orElse(null).getCountOfEncounter());
-		map.put("totalPharmacyEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(13)).findFirst().orElse(null).getCountOfEncounter());
-		map.put("totalCareCardEncounter",  summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(12)).findFirst().orElse(null).getCountOfEncounter());
+		SummaryDashboard summaryDashboard = summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(11)).findFirst().orElse(null);
+		if(summaryDashboard != null)
+			map.put("totallLaboratoryEncounter", summaryDashboard.getCountOfEncounter());
+		else
+			map.put("totallLaboratoryEncounter", 0);
+		summaryDashboard = summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(13)).findFirst().orElse(null);
+		if(summaryDashboard != null)
+			map.put("totalPharmacyEncounter", summaryDashboard.getCountOfEncounter());
+		else
+			map.put("totalPharmacyEncounter", 0);
+		summaryDashboard = summaryDashboardList.stream().filter(x->x.getEncounterTypeID().equals(12)).findFirst().orElse(null);
+		if(summaryDashboard != null)
+			map.put("totalCareCardEncounter", summaryDashboard.getCountOfEncounter());
+		else
+			map.put("totalCareCardEncounter", 0);
 		model.mergeAttributes(map);
 		
 	}

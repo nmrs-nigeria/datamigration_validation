@@ -156,7 +156,7 @@
         <% } %>
         <% } else { %>
         <tr>
-            <td colspan="2">${ui.message("general.none")}</td>
+            <td colspan="8" align="center">No Record To display</td>
         </tr>
         <% } %>
         </tbody>
