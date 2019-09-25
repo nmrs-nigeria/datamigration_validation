@@ -6,8 +6,10 @@
 <h1 align="center"> <b>VISUALS DEMO</b></h1>
 
 <div id="container2" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-<br/>
+<br/><br/ >
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<br/><br/>
+<div id="container3"></div>
 
 <style>
 #container3 {
@@ -50,7 +52,7 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-        text: 'Disaggregation by Program area'
+        text: 'Disaggregation by Testing Modality'
     },
     subtitle: {
         text: 'Program areas'
@@ -84,23 +86,23 @@ Highcharts.chart('container', {
 
     series: [
         {
-            name: "Program Area",
+            name: "Modality",
             colorByPoint: true,
             data: [
                 {
-                    name: "PMTCT",
+                    name: "OPD",
                     y: 62.74,
-                    drilldown: "PMTCT"
+                    drilldown: "OPD"
                 },
                 {
-                    name: "ART",
+                    name: "FP",
                     y: 40.57,
-                    drilldown: "ART"
+                    drilldown: "FP"
                 },
                 {
-                    name: "HTS",
+                    name: "BLood Bank",
                     y: 17.23,
-                    drilldown: "HTS"
+                    drilldown: "Blood Bank"
                 },
                 {
                     name: "Others",
@@ -113,8 +115,8 @@ Highcharts.chart('container', {
     drilldown: {
         series: [
             {
-                name: "PMTCT",
-                id: "PMTCT",
+                name: "OPD",
+                id: "OPD",
                 data: [
                     [
                         "v65.0",
@@ -191,8 +193,8 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                name: "ART",
-                id: "ART",
+                name: "FP",
+                id: "FP",
                 data: [
                     [
                         "v58.0",
@@ -238,8 +240,8 @@ Highcharts.chart('container', {
             },
 
             {
-                name: "HTS",
-                id: "HTS",
+                name: "BLood Bank",
+                id: "Blood Bank",
                 data: [
                     [
                         "v16",
@@ -271,7 +273,7 @@ Highcharts.chart('container2', {
         type: 'pie'
     },
     title: {
-        text: 'Disaggregation by Sex'
+        text: 'Percentage of Clients Tested'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -290,19 +292,19 @@ Highcharts.chart('container2', {
         name: 'Percentage Affected',
         colorByPoint: true,
         data: [{
-            name: 'Male',
+            name: 'Risk Assessment',
             y: 61.41,
             sliced: true,
             selected: true
         }, {
-            name: 'Female',
+            name: 'No Risk assessment',
             y: 39.59
         }]
     }]
 });
 		</script>
 
-		<div id="container3"></div>
+
 
 
         		<script type="text/javascript">
