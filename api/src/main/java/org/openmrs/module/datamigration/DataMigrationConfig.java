@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
 /**
  * Contains module's config.
  */
-@Component("datamigration.DataMigrationConfig")
 public class DataMigrationConfig {
 	
 	public final static String MODULE_PRIVILEGE = "Data Migration Privilege";

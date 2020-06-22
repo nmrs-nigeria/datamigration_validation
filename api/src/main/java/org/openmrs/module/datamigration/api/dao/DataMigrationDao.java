@@ -16,10 +16,8 @@ import org.openmrs.module.datamigration.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-@Repository("datamigration.DataMigrationDao")
 public class DataMigrationDao {
 	
-	@Autowired
 	DbSessionFactory sessionFactory;
 	
 	private DbSession getSession() {
@@ -34,4 +32,12 @@ public class DataMigrationDao {
 		getSession().saveOrUpdate(item);
 		return item;
 	}
+	
+	/**
+	 * @param sessionFactory the sessionFactory to set
+	 */
+	public void setSessionFactory(DbSessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	
 }
