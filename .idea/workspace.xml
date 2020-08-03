@@ -2,39 +2,665 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75bcb9b2-bcf6-461d-b04a-cd1495840e56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/app.bundle.min.4da6a5ee78c489e40bf3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/img/omrs-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/manifest.webapp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/manifest.webapp.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/conceptdictionary/vendor.bundle.6ecb0a60b2cc280883d4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/META-INF/maven/org.openmrs.module/metadatamapping-owa/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/META-INF/maven/org.openmrs.module/metadatamapping-owa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/app.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/css.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/img/omrs-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/manifest.webapp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:\Users\Arinze\openmrs\openmrs\owa/metadatamapping/vendor.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/datamigration-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/datamigration-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/AnyThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/AnyThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/DataMigrationActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/DataMigrationActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/DataMigrationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/DataMigrationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/NmrsConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/NmrsConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/DataMigrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/DataMigrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DataMigrationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DataMigrationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/impl/DataMigrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/impl/DataMigrationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/EncounterUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/EncounterUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LocationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LocationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Demographics.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Demographics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/ObsChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/ObsChildren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/PatientLineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/PatientLineList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/SummaryDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/SummaryDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsChildrenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsChildrenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/OptionsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/OptionsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/PatientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/PatientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/datamigration/PatientImportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/datamigration/PatientImportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/moduleApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/org/openmrs/module/datamigration/DataMigrationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/org/openmrs/module/datamigration/DataMigrationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/org/openmrs/module/datamigration/api/dao/DataMigrationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/org/openmrs/module/datamigration/api/dao/DataMigrationDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/webapp/pages/datavisualization.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/datavisualization.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/datamigration-omod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/datamigration-omod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/AddressResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/AddressResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/AnyThingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/AnyThingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/EncounterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/EncounterResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/FacilityResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/FacilityResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifierResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifierResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifiersResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifiersResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/MigrationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/MigrationResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/NigeriaEmrRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/NigeriaEmrRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsChildrenResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsChildrenResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ProviderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ProviderResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/extension/html/AdminList.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/extension/html/AdminList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/web/controller/DataMigrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/web/controller/DataMigrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/test/java/org/openmrs/module/datamigration/AdminListExtensionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/test/java/org/openmrs/module/datamigration/AdminListExtensionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/classes/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/moduleApplicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/omod/target/classes/web/module/pages/datavisualization.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/web/module/pages/datavisualization.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.omod" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.omod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datavisualization.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datavisualization.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/classes/web/module/resources/lib/jspdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/web/module/resources/lib/jspdf.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/classes/web/module/resources/lib/svg2pdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/web/module/resources/lib/svg2pdf.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.omod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/liquibase.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/moduleApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AddressResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AnyThingResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/EncounterResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/FacilityResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifierResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifiersResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/MigrationResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/NigeriaEmrRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsChildrenResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ProviderResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/extension/html/AdminList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/web/controller/DataMigrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/datamigration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/fragments/users.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datamigration.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datavisualization.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/ControlPoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/MockPoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableCircle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableLabel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllablePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/controllableMixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/markerMixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/eventEmitterMixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/navigationBindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/CrookedLine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/ElliottWave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Fibonacci.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/InfinityLine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Measure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Pitchfork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Tunnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/VerticalLine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/error-messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/highcharts-3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/accessibility.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/annotations-advanced.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/arrow-symbols.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/boost-canvas.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/boost.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/broken-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/bullet.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/coloraxis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/current-date-indicator.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/cylinder.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/datagrouping.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/debugger.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/dependency-wheel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/dotplot.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/drag-panes.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/draggable-points.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/export-data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/full-screen.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/funnel3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/gantt.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/grid-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/histogram-bellcurve.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/item-series.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/networkgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/offline-exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/oldie-polyfills.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/oldie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/organization.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/overlapping-datalabels.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/parallel-coordinates.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/pareto.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/pathfinder.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/pattern-fill.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/price-indicator.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/pyramid3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/sankey.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/series-label.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/solid-gauge.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/sonification.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/static-scale.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/stock-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/stock.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/streamgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/sunburst.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/tilemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/timeline.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/treegrid.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/treemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/variable-pie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/variwide.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/vector.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/venn.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/windbarb.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/wordcloud.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/modules/xrange.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/avocado.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/dark-blue.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/dark-green.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/dark-unica.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/gray.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/grid-light.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/grid.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/high-contrast-dark.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/high-contrast-light.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/sand-signika.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/skies.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/themes/sunset.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/centered-series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/derived-series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/download-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/draw-point.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/geometry-circles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/geometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/indicator-required.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/multipe-lines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/nelder-mead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/nodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/on-series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/polygon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/reduce-array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/mixins/tree-series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/AccessibilityComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigationHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/a11y-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/accessibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ContainerComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/InfoRegionComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/LegendComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/MenuComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/RangeSelectorComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/SeriesComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ZoomComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-mode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/utilities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bellcurve.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost-canvas.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-attach.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-overrides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostable-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/named-colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-shader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-vbuffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/broken-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bullet.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/cylinder.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/debugger.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dependency-wheel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dotplot.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/drag-panes.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/draggable-points.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/export-data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/full-screen.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/histogram.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/item-series.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/QuadTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/draggable-nodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/integrations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/layouts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/networkgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/offline-exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie-polyfills.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/organization.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/overlapping-datalabels.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/parallel-coordinates.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pareto.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pattern-fill.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/price-indicator.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pyramid3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sankey.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/series-label.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/solid-gauge.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/Earcon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/Instrument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/Timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/chartSonify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/instrumentDefinitions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/musicalFrequencies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/pointSonify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/sonification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sonification/utilities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/static-scale.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/stock-tools-bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/stock-tools-gui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/streamgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sunburst.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/tilemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/timeline.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/treemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/variable-pie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/variwide.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/vector.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/venn.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/windbarb.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/wordcloud.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/xrange.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/SVGRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Scatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/Series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-3d/VMLRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/ArrowSymbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/CurrentDateIndicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/GanttChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/GanttSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/GridAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/Pathfinder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/PathfinderAlgorithms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/Tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-gantt/TreeGrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorMapSeriesMixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorSeriesMixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/GeoJSON.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/HeatmapSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/Map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapBubbleSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapLineSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapNavigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/AreaRangeSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/AreaSplineRangeSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/BoxPlotSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/BubbleLegend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/BubbleSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/ColumnPyramidSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/ColumnRangeSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/ErrorBarSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/GaugeSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/PackedBubbleSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/Pane.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/Polar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/PolygonSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/RadialAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-more/WaterfallSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSplineSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/BarSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/CandlestickSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ColumnSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataGrouping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataLabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DateTimeAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Dynamics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/FlagsSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Globals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Interaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Legend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/LogarithmicAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/MSPointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Navigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OHLCSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OrdinalAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PieSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PlotLineOrBand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Point.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/RangeSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Responsive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScatterSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScrollablePlotArea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SplineSeries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Stacking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/StockChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SvgRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/TouchPointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Utilities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/avocado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-unica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sand-signika.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sunset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/accessibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/accessibility.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/accessibility.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations-advanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations-advanced.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations-advanced.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/arrow-symbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/arrow-symbols.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/arrow-symbols.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost-canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost-canvas.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost-canvas.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/boost.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/broken-axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/broken-axis.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/broken-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/bullet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/bullet.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/bullet.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/coloraxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/coloraxis.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/coloraxis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/current-date-indicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/current-date-indicator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/current-date-indicator.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/cylinder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/cylinder.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/cylinder.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/data.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/datagrouping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/datagrouping.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/datagrouping.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/debugger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/debugger.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/debugger.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dependency-wheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dependency-wheel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dependency-wheel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dotplot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dotplot.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/dotplot.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drag-panes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drag-panes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drag-panes.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/draggable-points.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/draggable-points.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/draggable-points.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drilldown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/export-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/export-data.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/export-data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/exporting.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/full-screen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/full-screen.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/full-screen.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel3d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/funnel3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/gantt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/gantt.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/gantt.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/grid-axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/grid-axis.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/grid-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/heatmap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/histogram-bellcurve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/histogram-bellcurve.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/histogram-bellcurve.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/item-series.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/item-series.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/item-series.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/networkgraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/networkgraph.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/networkgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/no-data-to-display.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/offline-exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/offline-exporting.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/offline-exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie-polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie-polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie-polyfills.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/oldie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/organization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/organization.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/organization.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/overlapping-datalabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/overlapping-datalabels.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/overlapping-datalabels.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/parallel-coordinates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/parallel-coordinates.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/parallel-coordinates.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pareto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pareto.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pareto.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pathfinder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pathfinder.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pathfinder.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pattern-fill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pattern-fill.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pattern-fill.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/price-indicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/price-indicator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/price-indicator.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pyramid3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pyramid3d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/pyramid3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sankey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sankey.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sankey.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/series-label.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/series-label.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/series-label.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/solid-gauge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/solid-gauge.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/solid-gauge.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sonification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sonification.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sonification.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/static-scale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/static-scale.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/static-scale.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock-tools.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/stock.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/streamgraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/streamgraph.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/streamgraph.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sunburst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sunburst.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/sunburst.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/tilemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/tilemap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/tilemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/timeline.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/timeline.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treegrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treegrid.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treegrid.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treemap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/treemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variable-pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variable-pie.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variable-pie.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variwide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variwide.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/variwide.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/vector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/vector.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/vector.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/venn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/venn.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/venn.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/windbarb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/windbarb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/windbarb.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/wordcloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/wordcloud.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/wordcloud.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/xrange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/xrange.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/modules/xrange.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-3d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-more.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/scripts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/avocado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/avocado.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/avocado.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-blue.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-blue.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-green.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-green.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-unica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-unica.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/dark-unica.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/gray.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/gray.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid-light.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid-light.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/grid.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-dark.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-dark.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-light.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/high-contrast-light.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sand-signika.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sand-signika.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sand-signika.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/skies.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/skies.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sunset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sunset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/themes/sunset.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/webModuleApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/dependency-maven-plugin-markers/org.openmrs.module-datamigration-api-jar-1.0.0-SNAPSHOT.marker" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -93,8 +719,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1R63nkKiCCPUGuz2n9RPIXrl8rB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -125,18 +760,6 @@
       <recent name="$PROJECT_DIR$/omod/src/main/webapp/fragments" />
       <recent name="$PROJECT_DIR$/omod/src/main/webapp/pages" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Maven.version 2.2">
     <configuration name="PatientImportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -172,6 +795,7 @@
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="version 2.2" type="MavenRunConfiguration" factoryName="Maven">
@@ -233,6 +857,7 @@
       <workItem from="1568973889084" duration="4126000" />
       <workItem from="1568988717081" duration="8000" />
       <workItem from="1568995715938" duration="157000" />
+      <workItem from="1596460170053" duration="898000" />
     </task>
     <task id="LOCAL-00010" summary="moving classes to the omod and creating utils">
       <created>1567068872588</created>
@@ -622,20 +1247,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Check for existing patient implemented" />
