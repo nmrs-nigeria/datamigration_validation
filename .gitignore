@@ -1,30 +1,77 @@
-*.class
+# Copied from https://github.com/github/gitignore
+
+### IntelliJ Idea ###
 *.iml
-*.idea
-.settings
+*.ipr
+*.iws
+.idea/
+
+### Maven ###
+target/
+pom.xml.versionsBackup
+#############
+
+### Eclipse ###
+*.pydevproject
 .project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
 .classpath
-*.sass-cache
-target
+.settings/
+.loadpath
 
-.DS_Store
+# External tool builders
+.externalToolBuilders/
 
-.vscode
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Package Files #
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+###############
+
+### Java ###
+*.class
+
+# Java Package Files #
 *.jar
 *.war
 *.ear
+############
 
-*.css
-omod/src/main/compass/sass-external/*
+### Netbeans ###
+nbproject/private/
+build/
+bin/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+################
 
-# Rubygems build directories #
-omod/.rubygems
-omod/.rubygems-provided
+### Linux ###
+.*
+!.gitignore
+!.gitattributes
+!.travis.yml
+*~
+#############
 
-# JS
-node
-node_modules
-npm-debug.log
-/bin/
+### OpenMRS Files ###
+/webapp/activemq-data
+/webapp/src/main/webapp/WEB-INF/tags/module
+/webapp/src/main/webapp/WEB-INF/dwr-modules.xml
+/webapp/src/main/webapp/WEB-INF/module_messages*
+/web/WEB-INF/dwr-modules.xml
+#############
