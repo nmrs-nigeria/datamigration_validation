@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nmrs-nigeria/datamigration_validation.svg?branch=master)](https://travis-ci.org/github/nmrs-nigeria/datamigration_validation)
+
 # datamigration_validation
 
 This project is a module that helps in validating migrated data into NigeriaMRS.
