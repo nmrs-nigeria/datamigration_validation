@@ -26,8 +26,7 @@ public abstract class LocationUtil {
 			return location;
 		}
 		catch (Exception e) {
-			e.printStackTrace();
-			return null;
+			throw e;
 		}
 	}
 }

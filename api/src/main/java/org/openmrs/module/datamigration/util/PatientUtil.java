@@ -10,6 +10,7 @@ import org.openmrs.module.datamigration.util.Model.Identifier;
 import org.openmrs.module.datamigration.util.Model.Migration;
 import sun.rmi.runtime.Log;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Optional;
@@ -18,10 +19,10 @@ import java.util.TreeSet;
 
 public abstract class PatientUtil {
 	
-	public static Patient InsertPatient(final Migration delegate, Location location) {
+	static SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+	
+	public static Patient InsertPatient(final Migration delegate, Location location) throws ParseException {
 		try {
-			
-			SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 			Patient patient = new Patient();
 			String pepfarId = "";
 			//handle patient identifiers
@@ -85,9 +86,8 @@ public abstract class PatientUtil {
 			return patient;
 		}
 		catch (Exception e) {
-			e.printStackTrace();
 			Logger.getLogger(PatientUtil.class).log(Priority.ERROR, e.getMessage());
-			return null;
+			throw e;
 		}
 	}
 }
