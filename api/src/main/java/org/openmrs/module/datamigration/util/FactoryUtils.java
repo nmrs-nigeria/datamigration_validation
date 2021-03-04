@@ -3,12 +3,13 @@ package org.openmrs.module.datamigration.util;
 import org.openmrs.*;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.datamigration.api.dao.DbConnection;
+import org.openmrs.module.datamigration.exception.CustomException;
 import org.openmrs.module.datamigration.util.Model.Migration;
 import org.openmrs.module.datamigration.util.Model.PatientLineList;
 import org.openmrs.module.datamigration.util.Model.SummaryDashboard;
+import org.openmrs.module.webservices.rest.web.response.GenericRestException;
 
 import java.sql.*;
-import java.text.ParseException;
 import java.util.*;
 
 public class FactoryUtils {
@@ -18,20 +19,19 @@ public class FactoryUtils {
 	private static String PATIENT_LINE_LIST = "SELECT * FROM PATIENT_LINE_LIST";
 	
 	/*This method does the utility connection for the patient*/
-	public void PatientUtils(Migration delegate) throws ParseException {
-		
+	public void PatientUtils(Migration delegate) {
 		try {
 			Location location = LocationUtil.InsertLocation(delegate.getFacility());
-			if (location != null) {
-				//handle patient
-				Patient patient = PatientUtil.InsertPatient(delegate, location);
-				
-				//handle encounters and obs
-				EncounterUtils.InsertEncounter(delegate, location, patient);
-			}
+			//handle patient
+			Patient patient = PatientUtil.InsertPatient(delegate, location);
+			
+			//handle encounters and obs
+			EncounterUtils.InsertEncounter(delegate, location, patient);
+			
+			delegate.setUuid(patient.getUuid());
 		}
 		catch (Exception e) {
-			throw e;
+			throw new CustomException(e.getMessage());
 		}
 	}
 	

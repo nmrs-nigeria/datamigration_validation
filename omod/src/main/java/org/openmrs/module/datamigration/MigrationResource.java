@@ -8,11 +8,14 @@
  */
 package org.openmrs.module.datamigration;
 
+import org.openmrs.module.datamigration.exception.CustomException;
+import org.openmrs.module.datamigration.util.CustomRestUtil;
 import org.openmrs.module.datamigration.util.FactoryUtils;
 import org.openmrs.module.datamigration.util.Model.Migration;
 import org.openmrs.module.webservices.rest.SimpleObject;
 import org.openmrs.module.webservices.rest.web.RequestContext;
 import org.openmrs.module.webservices.rest.web.RestConstants;
+import org.openmrs.module.webservices.rest.web.RestUtil;
 import org.openmrs.module.webservices.rest.web.annotation.PropertyGetter;
 import org.openmrs.module.webservices.rest.web.annotation.Resource;
 import org.openmrs.module.webservices.rest.web.representation.DefaultRepresentation;
@@ -25,6 +28,11 @@ import org.openmrs.module.webservices.rest.web.resource.impl.MetadataDelegatingC
 import org.openmrs.module.webservices.rest.web.resource.impl.NeedsPaging;
 import org.openmrs.module.webservices.rest.web.response.ResourceDoesNotSupportOperationException;
 import org.openmrs.module.webservices.rest.web.response.ResponseException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @Resource(name = RestConstants.VERSION_1 + NigeriaEmrRestController.NG_NAMESPACE, supportedClass = Migration.class, supportedOpenmrsVersions = {
         "1.9.*", "1.10.*", "1.11.*", "1.12.*", "2.0.*", "2.1.*", "2.2.*", "2.3.*" })
@@ -89,20 +97,10 @@ public class MigrationResource extends MetadataDelegatingCrudResource<Migration>
 	}
 	
 	@Override
-	public Migration save(Migration delegate) throws ResourceDoesNotSupportOperationException {
+	public Migration save(Migration delegate) {
 		
-		try {
-			FactoryUtils factoryUtils = new FactoryUtils();
-			factoryUtils.PatientUtils(delegate);
-		}
-		catch (Exception ex) {
-			try {
-				throw ex;
-			}
-			catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
+		FactoryUtils factoryUtils = new FactoryUtils();
+		factoryUtils.PatientUtils(delegate);
 		return delegate;
 	}
 	
