@@ -36,5 +36,15 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>uiframework-api</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>reporting-api</artifactId>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>

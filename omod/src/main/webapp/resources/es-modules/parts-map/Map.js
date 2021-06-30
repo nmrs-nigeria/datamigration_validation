@@ -264,7 +264,7 @@ H.splitPath = function (path) {
     // Trim
     path = path.replace(/^\s*/, '').replace(/\s*$/, '');
     // Split on spaces and commas
-    // Extra comma to escape gulp.scripts task
+    // Extra comma to escape gulp.sql-scripts task
     path = path.split(/[ ,]+/);
     // Parse numbers
     for (i = 0; i < path.length; i++) {

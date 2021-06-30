@@ -34,7 +34,7 @@ public class UsersFragmentController {
 		FactoryUtils factoryUtils = new FactoryUtils();
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		List<SummaryDashboard> summaryDashboardList = factoryUtils.getEncounters();
-		List<PatientLineList> patientLineList = factoryUtils.getPatientsLineList();
+		List<PatientLineList> patientLineList =  factoryUtils.getPatientsLineList();
 
 		model.addAttribute("patientLineList", patientLineList);
 

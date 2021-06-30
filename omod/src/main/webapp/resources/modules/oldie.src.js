@@ -490,7 +490,7 @@
                 cutOffPath: function (path, length) {
                     var len;
                     // The extra comma tricks the trailing comma remover in
-                    // "gulp scripts" task
+                    // "gulp sql-scripts" task
                     path = path.split(/[ ,]/);
                     len = path.length;
                     if (len === 9 || len === 11) {

@@ -7,18 +7,25 @@ import org.openmrs.module.datamigration.exception.CustomException;
 import org.openmrs.module.datamigration.util.Model.Migration;
 import org.openmrs.module.datamigration.util.Model.PatientLineList;
 import org.openmrs.module.datamigration.util.Model.SummaryDashboard;
-import org.openmrs.module.webservices.rest.web.response.GenericRestException;
+import org.openmrs.module.reporting.serializer.ReportingSerializer;
+import org.openmrs.ui.framework.resource.ResourceFactory;
+import org.openmrs.ui.framework.resource.ResourceProvider;
+import org.springframework.util.ResourceUtils;
 
+import java.io.File;
+import java.nio.file.Files;
 import java.sql.*;
 import java.util.*;
 
 public class FactoryUtils {
 	
-	private static String ENCOUNTER_TYPE_VIEW = "SELECT * FROM ENCOUNTER_TYPE_VIEW";
+	private static String ENCOUNTER_TYPE_VIEW = "" + "SELECT\n" + "  e.encounter_type AS EncounterTypeId,\n" + "  (SELECT\n"
+	        + "     et.name\n" + "   FROM encounter_type et\n"
+	        + "   WHERE (et.encounter_type_id = e.encounter_type)) AS EncounterType,\n"
+	        + "  COUNT(e.encounter_type) AS NumberOfEncounters\n" + "FROM encounter e\n" + "GROUP BY e.encounter_type";
 	
-	private static String PATIENT_LINE_LIST = "SELECT * FROM PATIENT_LINE_LIST";
+	private static String PATIENT_LINE_LIST = "";
 	
-	/*This method does the utility connection for the patient*/
 	public void PatientUtils(Migration delegate) {
 		try {
 			Location location = LocationUtil.InsertLocation(delegate.getFacility());
@@ -40,7 +47,6 @@ public class FactoryUtils {
 	}
 	
 	public ArrayList<SummaryDashboard> getEncounters() {
-
 		DbConnection dbcon = new DbConnection();
 		Connection connection = dbcon.Connection();
 		ArrayList<SummaryDashboard> summaryDashboardList = new ArrayList<>();
@@ -66,6 +72,24 @@ public class FactoryUtils {
 		ArrayList<PatientLineList> pateintLineList = new ArrayList<PatientLineList>();
 		DbConnection dbcon = new DbConnection();
 		Connection connection = dbcon.Connection();
+		
+		String providerName = "datamigration";
+		
+		String reportsPath = "sql-scripts/";
+		try {
+			final ResourceFactory resourceFactory = ResourceFactory.getInstance();
+			
+			final ResourceProvider resourceProvider = resourceFactory.getResourceProviders().get(providerName);
+			
+			final File reportsDir = resourceProvider.getResource(reportsPath);
+			System.out.print(reportsDir);
+			File file = ResourceUtils.getFile(reportsDir + "/patient_list.sql");
+			PATIENT_LINE_LIST = new String(Files.readAllBytes(file.toPath()));
+			
+		}
+		catch (Exception ex) {
+			System.out.print("File not found");
+		}
 		
 		try {
 			Statement statement = connection.createStatement();

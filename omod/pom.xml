@@ -47,7 +47,17 @@
 			<artifactId>uiframework-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>serialization.xstream-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>reporting-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
